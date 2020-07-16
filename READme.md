@@ -7,7 +7,7 @@
   * pip install flask-sqlalchemy
   * pip install Flask-IPInfo
   * python run.py
-  * open your browser *localhost:5000*
+  * open your browser type this *localhost:5000*
 
 ### Result App
 
