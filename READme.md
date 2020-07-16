@@ -1,3 +1,3 @@
 ### Hasil Sementara
 
-![Current Result Flask Counter](/templates/img/result.png)
+![Current Result Flask Counter](app/templates/img/result.png)
