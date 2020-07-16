@@ -39,12 +39,15 @@
             </thead>
 
             <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>{{ipadd}}</td>
-                    <td>{{date.strftime("%A, %d-%B-%Y")}}</td>
-                    <td>{{date.strftime("%X")}}</td>
-                </tr>                    
+                {% for baris in data %}
+                <tr>                                        
+                        <td>{{baris.id}}</td>
+                        <td>{{baris.ipaddress}}</td>
+                        <td>{{baris.tanggal.strftime("%A, %d-%B-%Y")}}</td>
+                        <td>{{baris.tanggal.strftime("%X")}}</td>
+                </tr>     
+                {% endfor %}                        
+               
             </tbody>
 
         </table>
