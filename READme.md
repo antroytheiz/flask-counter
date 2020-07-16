@@ -3,8 +3,8 @@
   * cd flask-counter
   * python -m venv env-flask
   * source env-flask/bin/activate
-  * pip install flask
-  * pip install flask-sqlalchemy
+  * pip install Flask
+  * pip install Flask-SQLAlchemy
   * pip install Flask-IPInfo
   * python run.py
   * open your browser type this *localhost:5000*
