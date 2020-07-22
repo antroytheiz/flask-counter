@@ -1,3 +1,14 @@
-### Hasil Sementara
+## How to run This App
+  * git clone https://github.com/antroytheiz/flask-counter.git
+  * cd flask-counter
+  * python -m venv env-flask
+  * source env-flask/bin/activate
+  * pip install Flask
+  * pip install Flask-SQLAlchemy
+  * pip install Flask-IPInfo
+  * python run.py
+  * open your browser type this *localhost:5000*
 
-![Current Result Flask Counter](/templates/img/result.png)
+### Result App
+
+![Current Result Flask Counter](app/templates/img/result.png)
